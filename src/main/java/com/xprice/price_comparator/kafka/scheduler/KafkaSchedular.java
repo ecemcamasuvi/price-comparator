@@ -11,7 +11,7 @@ public class KafkaSchedular {
     @Autowired
     private PriceProducerService priceProducerService;
 
-    @Scheduled(fixedRate = 300000) //5 minutes
+    @Scheduled(fixedRate = 3600000) //1 hour
     public void fetchAndSendToKafka(){
         priceProducerService.fetchAndSendToKafka();
     }

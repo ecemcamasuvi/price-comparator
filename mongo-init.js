@@ -3,12 +3,12 @@ db = db.getSiblingDB('xprice');
 db.siteDetails.insertMany([
     {
         name: "Mediamarkt",
-        baseUrl: "https://www.trendyol.com",
-        searchUrl: "https://www.trendyol.com/sr?q=macbook%20air%20m2&qt=MacBook%20Air%20M2&st=MacBook%20Air%20M2&sst=PRICE_BY_ASC&lc=103108&os=1",
-        elementPath: "ul.non-style > li > div#product-item",
-        productNamePathOfElement: "data-product-name",
-        pricePathOfElement: "data-price-with-discount",
-        urlPathOfElement: "data-product-url"
+        baseUrl: "https://www.mediamarkt.com.tr",
+        searchUrl: "https://www.mediamarkt.com.tr/tr/category/macbook-air-645070.html?filter=processorModel:M2&sort=currentprice+asc",
+        elementPath: "div[data-test=mms-product-card]",
+        productNamePathOfElement: "p[data-test=product-title]",
+        pricePathOfElement: "span.sc-8b815c14-0.hIJQGE.sc-dd1a61d2-2.efAprc",
+        urlPathOfElement: "a[data-test=mms-product-list-item-link]"
     },
     {
         name: "Teknosa",
@@ -21,11 +21,11 @@ db.siteDetails.insertMany([
     },
     {
         name: "Pazarama",
-        baseUrl: "https://www.hepsiburada.com",
-        searchUrl: "https://www.hepsiburada.com/ara?q=macbook+air+m2",
-        elementPath: "div.product-item",
-        productNamePathOfElement: "data-product-name",
-        pricePathOfElement: "data-price",
-        urlPathOfElement: "a.product-link"
+        baseUrl: "https://www.pazarama.com",
+        searchUrl: "https://www.pazarama.com/arama?kategori=dizustu-bilgisayar-k-K04078&q=MacBook%20Air%20M2&siralama=artan-fiyat",
+        elementPath: ".product-card.bg-white.relative",
+        productNamePathOfElement: "a[title]",
+        pricePathOfElement: ".leading-tight.text-blue-500.font-semibold.text-huge",
+        urlPathOfElement: "a[href]"
     }
 ]);
