@@ -6,7 +6,7 @@ This project is a comprehensive Spring Boot-based REST API application designed 
 
 ## Key Features
 
-- **Price Aggregation**: Collects real-time price data for the MacBook Air M2 from various e-commerce sites.
+- **Price Aggregation**: Collects hourly price data for the MacBook Air M2 from various e-commerce sites in real-time.
 - **Price Comparison**: Analyzes and compares prices to present users with the best available deal.
 - **Data Storage**: Uses MongoDB for storing price data and Redis for caching to improve performance.
 
