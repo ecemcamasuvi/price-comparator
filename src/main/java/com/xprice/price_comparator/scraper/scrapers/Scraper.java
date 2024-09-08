@@ -1,7 +1,7 @@
 package com.xprice.price_comparator.scraper.scrapers;
 
 import com.xprice.price_comparator.model.dto.ScraperDto;
-import com.xprice.price_comparator.model.entity.ProductPrice;
+import com.xprice.price_comparator.model.document.ProductPrice;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

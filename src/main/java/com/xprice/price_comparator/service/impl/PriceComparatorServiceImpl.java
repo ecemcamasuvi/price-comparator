@@ -1,7 +1,7 @@
 package com.xprice.price_comparator.service.impl;
 
 import com.xprice.price_comparator.model.dto.ProductPriceDto;
-import com.xprice.price_comparator.model.entity.ProductPrice;
+import com.xprice.price_comparator.model.document.ProductPrice;
 import com.xprice.price_comparator.model.enums.SiteEnum;
 import com.xprice.price_comparator.model.service.ProductPriceService;
 import com.xprice.price_comparator.service.PriceComparatorService;

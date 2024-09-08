@@ -1,6 +1,6 @@
 package com.xprice.price_comparator.kafka;
 
-import com.xprice.price_comparator.model.entity.ProductPrice;
+import com.xprice.price_comparator.model.document.ProductPrice;
 import com.xprice.price_comparator.model.service.ProductPriceService;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

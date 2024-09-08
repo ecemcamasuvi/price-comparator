@@ -1,6 +1,6 @@
 package com.xprice.price_comparator.service.impl;
 
-import com.xprice.price_comparator.model.entity.ProductPrice;
+import com.xprice.price_comparator.model.document.ProductPrice;
 import com.xprice.price_comparator.model.enums.SiteEnum;
 import com.xprice.price_comparator.scraper.factory.ScraperFactory;
 import com.xprice.price_comparator.scraper.scrapers.Scraper;

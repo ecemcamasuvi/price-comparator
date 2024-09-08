@@ -2,11 +2,10 @@ package com.xprice.price_comparator.scraper;
 import static org.junit.jupiter.api.Assertions.*;
 
 import com.xprice.price_comparator.model.dto.ScraperDto;
-import com.xprice.price_comparator.model.entity.ProductPrice;
+import com.xprice.price_comparator.model.document.ProductPrice;
 import com.xprice.price_comparator.scraper.scrapers.MediamarktScraper;
 import com.xprice.price_comparator.scraper.scrapers.PazaramaScraper;
 import com.xprice.price_comparator.scraper.scrapers.TeknosaScraper;
-import com.xprice.price_comparator.service.PriceCollectionService;
 import com.xprice.price_comparator.service.impl.PriceCollectionServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

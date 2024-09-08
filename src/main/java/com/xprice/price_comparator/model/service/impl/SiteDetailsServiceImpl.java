@@ -1,6 +1,6 @@
 package com.xprice.price_comparator.model.service.impl;
 
-import com.xprice.price_comparator.model.entity.SiteDetails;
+import com.xprice.price_comparator.model.document.SiteDetails;
 import com.xprice.price_comparator.model.service.SiteDetailsService;
 import com.xprice.price_comparator.model.repository.SiteDetailsRepository;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,13 +1,12 @@
 package com.xprice.price_comparator.scraper.scrapers;
 
 import com.xprice.price_comparator.model.dto.ScraperDto;
-import com.xprice.price_comparator.model.entity.ProductPrice;
-import com.xprice.price_comparator.model.entity.SiteDetails;
+import com.xprice.price_comparator.model.document.ProductPrice;
+import com.xprice.price_comparator.model.document.SiteDetails;
 import lombok.RequiredArgsConstructor;
 import org.jsoup.nodes.Element;
 
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
 
 @RequiredArgsConstructor
 public class MediamarktScraper implements Scraper{

@@ -1,7 +1,7 @@
 package com.xprice.price_comparator.scraper;
 
 import com.xprice.price_comparator.kafka.PriceProducerService;
-import com.xprice.price_comparator.model.entity.ProductPrice;
+import com.xprice.price_comparator.model.document.ProductPrice;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

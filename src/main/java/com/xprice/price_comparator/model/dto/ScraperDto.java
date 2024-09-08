@@ -1,8 +1,7 @@
 package com.xprice.price_comparator.model.dto;
 
-import com.xprice.price_comparator.model.entity.SiteDetails;
+import com.xprice.price_comparator.model.document.SiteDetails;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 
 @Data

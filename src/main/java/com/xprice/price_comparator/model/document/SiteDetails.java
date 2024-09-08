@@ -1,8 +1,9 @@
-package com.xprice.price_comparator.model.entity;
+package com.xprice.price_comparator.model.document;
 
 import lombok.Data;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "siteDetails")
@@ -10,6 +11,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class SiteDetails {
     @Id
     private ObjectId id;
+    @Indexed
     private String name;
     private String baseUrl;
     private String searchUrl;

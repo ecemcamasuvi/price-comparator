@@ -2,7 +2,7 @@ package com.xprice.price_comparator.scraper;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
-import com.xprice.price_comparator.model.entity.SiteDetails;
+import com.xprice.price_comparator.model.document.SiteDetails;
 import com.xprice.price_comparator.model.repository.SiteDetailsRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

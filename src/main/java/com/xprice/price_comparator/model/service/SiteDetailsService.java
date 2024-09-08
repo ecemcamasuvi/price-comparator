@@ -1,6 +1,6 @@
 package com.xprice.price_comparator.model.service;
 
-import com.xprice.price_comparator.model.entity.SiteDetails;
+import com.xprice.price_comparator.model.document.SiteDetails;
 import com.xprice.price_comparator.rmi.BackendService;
 
 import java.util.List;
