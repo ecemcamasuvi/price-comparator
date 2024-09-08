@@ -34,6 +34,9 @@ public class PriceProducerService {
         }
     }
 
+    /**
+     * This method collecting the ProductPrice data for each webpage defined in SiteDetails
+     */
     private List<ProductPrice> fetchProductPrice(){
         List<ProductPrice> productPriceList = new ArrayList<>();
         for(SiteEnum siteEnum:SiteEnum.values()){

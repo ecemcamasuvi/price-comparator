@@ -11,7 +11,7 @@ public class KafkaSchedular {
     @Autowired
     private PriceProducerService priceProducerService;
 
-    @Scheduled(fixedRateString = "${schedule.fixedRate}")
+    @Scheduled(fixedRateString = "${schedule.fixedRate}") //It defined as 1 hour
     public void fetchAndSendToKafka(){
         priceProducerService.fetchAndSendToKafka();
     }

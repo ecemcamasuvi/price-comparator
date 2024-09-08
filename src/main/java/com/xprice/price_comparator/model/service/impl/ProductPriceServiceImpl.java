@@ -15,6 +15,10 @@ public class ProductPriceServiceImpl implements ProductPriceService {
     @Autowired
     private ProductPriceRepository productPriceRepository;
 
+    /**
+     * This method saves the given ProductPrice to the repository and updates the cache if the price or URL has changed.
+     * If the product is not in the cache, it will also save and update the cache.
+     */
     @Override
     public ProductPrice save(ProductPrice productPrice) {
         ProductPrice latestProduct = getLatestProductPriceFromCache(productPrice.getSiteName());

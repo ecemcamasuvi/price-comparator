@@ -12,6 +12,11 @@ import org.springframework.stereotype.Service;
 public class PriceCollectionServiceImpl implements PriceCollectionService {
     @Autowired
     private ScraperFactory scraperFactory;
+
+    /**
+     * This method scrapes price information from a webpage using Jsoup.
+     * Collected data is stored as a ProductPrice object.
+     */
     @Override
     public ProductPrice fetchPrice(SiteEnum siteEnum){
         Scraper scraper = scraperFactory.getScraper(siteEnum);

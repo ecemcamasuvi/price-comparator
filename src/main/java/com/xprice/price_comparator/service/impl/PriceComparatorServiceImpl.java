@@ -21,6 +21,10 @@ public class PriceComparatorServiceImpl implements PriceComparatorService {
     private static final Logger logger = getLogger(PriceComparatorServiceImpl.class);
     @Autowired
     private ProductPriceService productPriceService;
+
+    /**
+     * This method finds the latest record for each website, compares it and determines the best price.
+     */
     @Override
     public ProductPriceDto getBestPrice() {
         try{
