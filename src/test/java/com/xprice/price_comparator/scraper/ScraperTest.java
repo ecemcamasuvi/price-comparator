@@ -94,7 +94,7 @@ public class ScraperTest {
     }
 
     @Test
-    void testScrapePriceToSeeProductNotFoundError() throws Exception {
+    void testScrapePrice_whenProductNotFound_shouldThrowError() throws Exception {
         ScraperDto scraperDto = new ScraperDto(
                 "Teknosa",
                 "https://www.teknosa.com",

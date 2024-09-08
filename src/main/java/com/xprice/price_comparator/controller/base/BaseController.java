@@ -10,8 +10,10 @@ public class BaseController implements Serializable {
     private static final Logger log = LoggerFactory.getLogger(BaseController.class);
 
     protected <T> ResponseDto<T> handleError(Exception e){
-        log.error(e.getMessage());
-        return new ResponseDto<>("An error occured while calculating the best price: ", e.getMessage());
+        Throwable rootCause = e.getCause() != null ? e.getCause() : e;
+        log.error("Error: " + e.getMessage() + " | Root cause: " + rootCause.getMessage(), e);
+
+        return new ResponseDto<>("An error occurred while calculating the best price: ", rootCause.getMessage());
     }
 
 }
