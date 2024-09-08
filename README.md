@@ -68,6 +68,19 @@ To get started with this project:
 
 [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/25664358-8bf964a6-4e63-4775-9180-2f0c01e70755?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D25664358-8bf964a6-4e63-4775-9180-2f0c01e70755%26entityType%3Dcollection%26workspaceId%3D4b09edc9-3ef3-44e2-9165-28997933f584)
 
+### Success Response Format
+
+```json
+{
+    "resultCode": "success",
+    "errorMessage": null,
+    "data": {
+        "productUrl": "https://www.pazarama.com/apple-macbook-air-13-m2-cip-8-cekirdekli-cpu-8-cekirdekli-gpu-8-gb-bellek-256gb-ssd-gece-yarisi-mly33tu-a-p-194253083382",
+        "price": 34271.04
+    }
+}
+
+```
 
 If an error occurs during the processing of a request, the API will return a structured response to help you understand what went wrong. Here is the format of the error response you might encounter:
 
