@@ -1,4 +1,4 @@
-# Price Comparison Service for MacBook Air M2
+# Price Comparator for MacBook Air M2
 
 ## Overview
 
@@ -42,12 +42,12 @@ To get started with this project:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/price-comparison-service.git
+    [git clone [https://github.com/your-username/price-comparison-service.git](https://github.com/ecemcamasuvi/price-comparator)](https://github.com/ecemcamasuvi/price-comparator.git)
     ```
 
 2. **Navigate to the Project Directory**:
     ```bash
-    cd price-comparison-service
+    cd price-comparator
     ```
 
 3. **Build the Application**:
@@ -82,9 +82,9 @@ To get started with this project:
 
 ```
 
-If an error occurs during the processing of a request, the API will return a structured response to help you understand what went wrong. Here is the format of the error response you might encounter:
-
 ### Error Response Format
+
+If an error occurs during the processing of a request, the API will return a structured response to help you understand what went wrong. Here is the format of the error response you might encounter:
 
 ```json
 {
